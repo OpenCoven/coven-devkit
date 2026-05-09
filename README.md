@@ -1,6 +1,6 @@
 # OpenCoven Coven Devkit
 
-OpenClaw plugin that bundles narrow, repo-aware skills for expert Coven work.
+OpenClaw plugin package `@opencoven/coven-devkit` that bundles narrow, repo-aware skills for expert Coven work.
 
 This intentionally is **not** one giant “Coven” skill. It starts with the five highest-risk engineering workflows and keeps later community/docs automation as a roadmap until repeated use justifies it.
 
@@ -13,6 +13,13 @@ This intentionally is **not** one giant “Coven” skill. It starts with the fi
 5. `coven-release-operator` — release gates and package verification.
 
 See `references/skill-roadmap.md` for planned candidates such as install diagnostics, future harness adapters, comux loop, patch-openclaw flow, roadmap issue maker, docs/brand keeper, security review, community ops, and brand assets.
+
+## ClawHub install
+
+```sh
+openclaw plugins install clawhub:@opencoven/coven-devkit
+openclaw plugins enable coven-devkit
+```
 
 ## Local install
 

@@ -1,5 +1,5 @@
 {
-  "name": "coven-devkit",
+  "name": "@opencoven/coven-devkit",
   "version": "0.1.0",
   "description": "OpenClaw skill bundle for expert Coven development, verification, release, and client integration work.",
   "type": "module",
