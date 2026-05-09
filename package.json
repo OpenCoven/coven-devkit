@@ -23,5 +23,14 @@
     "coven",
     "skills",
     "plugin"
-  ]
+  ],
+  "openclaw": {
+    "compat": {
+      "pluginApi": ">=2026.5.7",
+      "minGatewayVersion": "2026.5.7"
+    },
+    "build": {
+      "openclawVersion": "2026.5.7"
+    }
+  }
 }
