@@ -10,7 +10,7 @@
   },
   "files": [
     "openclaw.plugin.json",
-    "index.ts",
+    "index.js",
     "skills/**/SKILL.md",
     "references/**",
     "scripts/**"
@@ -34,7 +34,7 @@
       "openclawVersion": "2026.5.7"
     },
     "extensions": [
-      "./index.ts"
+      "./index.js"
     ]
   },
   "peerDependencies": {
