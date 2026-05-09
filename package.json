@@ -1,0 +1,27 @@
+{
+  "name": "coven-devkit",
+  "version": "0.1.0",
+  "description": "OpenClaw skill bundle for expert Coven development, verification, release, and client integration work.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenCoven/coven-devkit.git"
+  },
+  "files": [
+    "openclaw.plugin.json",
+    "skills/**/SKILL.md",
+    "references/**",
+    "scripts/**"
+  ],
+  "scripts": {
+    "check": "bash scripts/validate-skills.sh"
+  },
+  "keywords": [
+    "openclaw",
+    "opencoven",
+    "coven",
+    "skills",
+    "plugin"
+  ]
+}
